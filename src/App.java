@@ -1,15 +1,19 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        motor motor = new motor();
-        motor aerox = new motor();
+        iphone iphone1 = new iphone();
+        iphone iphone2 = new iphone();
     
-        motor.color = "Hitam";
-        motor.type = "Jazz";
+        iphone1.color = "Hitam";
+        iphone2.color = "Silver";
 
-        motor.klakson();
-        motor.nyala();
-        motor.mati();
-    
-    }
+        iphone1.berdering();
+        iphone1.nyala();
+        iphone1.mati();
+
+        iphone2.berdering();
+        iphone2.nyala();
+        iphone2.mati();
+
+            }
 
 }
